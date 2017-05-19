@@ -5,6 +5,7 @@ packaging==16.8
 # Flask
 Flask==0.12.1
 wsgiref==0.1.2
+gunicorn==19.6.0
 
 # Timezone lookup
 Shapely==1.5.17
