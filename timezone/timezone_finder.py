@@ -9,7 +9,7 @@ class TimezoneFinder(object):
     """
 
     def __init__(self):
-        self.timezone_finder = tzwhere.tzwhere(shapely=True, forceTZ=True)
+        self.timezone_finder = tzwhere.tzwhere(forceTZ=True)
 
     def timezone_lookup(self, lon, lat):
         """
