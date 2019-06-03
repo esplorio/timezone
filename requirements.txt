@@ -9,7 +9,7 @@ gunicorn==19.6.0
 
 # Timezone lookup
 Shapely==1.5.17
-git+git://github.com/esplorio/pytzwhere.git@feature/nearby-timezones-3.0#egg=tzwhere
+git+git://github.com/esplorio/pytzwhere.git#egg=tzwhere
 
 # Others
 ujson==1.35
