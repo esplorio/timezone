@@ -28,7 +28,7 @@ timezone_finder = TimezoneFinder()
 @application.route('/timezone/')
 def timezone():
     """Return a timezone name for the given latitude and longitude"""
-    if not (request.args.get('lon') and request.args['lat']):
+    if not (request.args.get('lon') and request.args.get('lat')):
         # Make an error response and return it
         response = current_app.make_response(json.dumps({'reason': 'Missing lat/lon in request parameters'}))
         response.status_code = 400
