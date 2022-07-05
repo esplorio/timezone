@@ -12,4 +12,4 @@ Shapely==1.5.17
 git+git://github.com/esplorio/pytzwhere.git#egg=tzwhere
 
 # Others
-ujson==1.35
+ujson==5.4.0
